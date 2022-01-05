@@ -1,0 +1,12 @@
+<suite name="SmokeSuite" data-provider-thread-count="3">
+    <test name="tests.MyTestsChrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCartSum">
+                <methods>
+                    <include name="checkPrice"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
