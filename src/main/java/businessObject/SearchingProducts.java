@@ -7,7 +7,7 @@ import rozetkaPages.SortedPage;
 import sun.applet.Main;
 
 public class SearchingProducts {
-    private static final int TIME_TO_WAIT = 15;
+    private static final int TIME_TO_WAIT = 25;
     private MainPage mainPage = new MainPage();
     private SearchResultPage searchResultPage = new SearchResultPage();
     private SortedPage sortedPage = new SortedPage();

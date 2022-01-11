@@ -38,20 +38,4 @@ public class DefaultTest {
             e.printStackTrace();
         }
     }
-
-//    public MainPage getMainPage() {
-//        return new MainPage(WebDriverManager.getDriver());
-//    }
-//
-//    public SearchResultPage getSearchResultPage() {
-//        return new SearchResultPage(WebDriverManager.getDriver());
-//    }
-//
-//    public SortedPage getSortedPage() {
-//        return new SortedPage(WebDriverManager.getDriver());
-//    }
-//
-//    public ProductPage getProductPage() {
-//        return new ProductPage(WebDriverManager.getDriver());
-//    }
 }

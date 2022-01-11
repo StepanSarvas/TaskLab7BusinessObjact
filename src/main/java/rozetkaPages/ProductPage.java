@@ -2,6 +2,7 @@ package rozetkaPages;
 
 import core.decorator.Element;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class ProductPage extends DefaultPage {
@@ -25,6 +26,11 @@ public class ProductPage extends DefaultPage {
 
     public int getCartSumValue() {
         return Integer.parseInt(cartSum.getText());
+    }
+
+    public void scrollToBuyButton() {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(buyButton);
     }
 
     public Element getBuyButton() {

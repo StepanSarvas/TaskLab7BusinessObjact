@@ -34,7 +34,8 @@ public class testCartSum extends DefaultTest {
         AddingToBucket addingToBucket = new AddingToBucket();
         addingToBucket.addingToBucket(addingToBucket.getProductPage());
 
-        new TestAssertion().assertCorrectPrice(searchData.getPriceValidation(), addingToBucket);
+        TestAssertion testAssertion = new TestAssertion();
+        testAssertion.assertCorrectPrice(searchData.getPriceValidation(), addingToBucket);
     }
 
 }
